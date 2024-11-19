@@ -1,0 +1,24 @@
+{
+  "name": "labo-10-11-express-apiresful",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node --watch src/index.js",
+    "bdd": "npx json-server --watch db.json --port=4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "json-server": "^1.0.0-beta.3",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
