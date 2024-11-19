@@ -1,0 +1,197 @@
+{
+  "Regist": [
+    {
+      "id": "b55c",
+      "ConsumoDiarioLitros": 250,
+      "FugasDetectadas": 2,
+      "DesperdicioEstimadoLitros": 50,
+      "NivelConsumo": "Alto",
+      "FechaReporte": "2024-11-17"
+    },
+    {
+      "id": "ddd8",
+      "ConsumoDiarioLitros": 180,
+      "FugasDetectadas": 1,
+      "DesperdicioEstimadoLitros": 20,
+      "NivelConsumo": "Normal",
+      "FechaReporte": "2024-11-16"
+    },
+    {
+      "id": "8335",
+      "ConsumoDiarioLitros": 300,
+      "FugasDetectadas": 3,
+      "DesperdicioEstimadoLitros": 70,
+      "NivelConsumo": "Crítico",
+      "FechaReporte": "2024-11-15"
+    },
+    {
+      "id": "aa83",
+      "ConsumoDiarioLitros": 120,
+      "FugasDetectadas": 0,
+      "DesperdicioEstimadoLitros": 0,
+      "NivelConsumo": "Bajo",
+      "FechaReporte": "2024-11-14"
+    },
+    {
+      "id": "dfc6",
+      "ConsumoDiarioLitros": 400,
+      "FugasDetectadas": 4,
+      "DesperdicioEstimadoLitros": 100,
+      "NivelConsumo": "Crítico",
+      "FechaReporte": "2024-11-13"
+    },
+    {
+      "id": "fb60",
+      "ConsumoDiarioLitros": 200,
+      "FugasDetectadas": 1,
+      "DesperdicioEstimadoLitros": 30,
+      "NivelConsumo": "Normal",
+      "FechaReporte": "2024-11-12"
+    },
+    {
+      "id": "d397",
+      "ConsumoDiarioLitros": 500,
+      "FugasDetectadas": 5,
+      "DesperdicioEstimadoLitros": 150,
+      "NivelConsumo": "Crítico",
+      "FechaReporte": "2024-11-11"
+    },
+    {
+      "id": "c9dd",
+      "ConsumoDiarioLitros": 100,
+      "FugasDetectadas": 0,
+      "DesperdicioEstimadoLitros": 0,
+      "NivelConsumo": "Bajo",
+      "FechaReporte": "2024-11-10"
+    },
+    {
+      "id": "c6f2",
+      "ConsumoDiarioLitros": 220,
+      "FugasDetectadas": 2,
+      "DesperdicioEstimadoLitros": 40,
+      "NivelConsumo": "Alto",
+      "FechaReporte": "2024-11-09"
+    }
+  ],
+  "Alerta": [
+    {
+      "id": "a679",
+      "id_consumo": "b55c",
+      "alerta": "Desperdicio estimado de agua de 50 litros detectados debido a fugas en el sistema. Se recomienda revisar el consumo"
+    },
+    {
+      "id": "1a34",
+      "id_consumo": "ddd8",
+      "alerta": "Alerta: Desperdicio estimado de agua de 20 litros detectado debido a una fuga. Recomendamos una revisión del sistema."
+    },
+    {
+      "id": "1c17",
+      "id_consumo": "8335",
+      "alerta": "Alerta Crítica: Desperdicio estimado de agua de 70 litros debido a fugas. Nivel de consumo crítico. Acción inmediata recomendada."
+    },
+    {
+      "id": "928f",
+      "id_consumo": "aa83",
+      "alerta": "Desperdicio de agua no detectado. Consumo bajo y sin fugas en el sistema."
+    },
+    {
+      "id": "4f84",
+      "id_consumo": "dfc6",
+      "alerta": "Alerta Crítica: Desperdicio estimado de agua de 100 litros debido a fugas graves. Nivel de consumo crítico. Requiere acción urgente."
+    },
+    {
+      "id": "7789",
+      "id_consumo": "fb60",
+      "alerta": "Alerta: Desperdicio estimado de agua de 30 litros detectado debido a una fuga. Se recomienda revisar el sistema."
+    },
+    {
+      "id": "8e6d",
+      "id_consumo": "d397",
+      "alerta": "Alerta Crítica: Desperdicio estimado de agua de 150 litros debido a fugas importantes. Nivel de consumo crítico. Acción urgente recomendada."
+    },
+    {
+      "id": "03ea",
+      "id_consumo": "c9dd",
+      "alerta": "Desperdicio de agua no detectado. Consumo bajo y sin fugas en el sistema."
+    },
+    {
+      "id": "dc8e",
+      "id_consumo": "c6f2",
+      "alerta": "Alerta: Desperdicio estimado de agua de 40 litros debido a fugas. Recomendamos revisar el sistema."
+    }
+  ],
+  "User": [
+    {
+      "Nombre": "Walter Cobacango",
+      "Edad": 20,
+      "Sector": "PONCIANO",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "b55c",
+      "id": "2465"
+    },
+    {
+      "Nombre": "Azucena Acero",
+      "Edad": 55,
+      "Sector": "Carcelen Bajo",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "ddd8",
+      "id": "29d5"
+    },
+    {
+      "Nombre": "Fabiana Yepez",
+      "Edad": 34,
+      "Sector": "Ferroviaria ",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "8335",
+      "id": "2867"
+    },
+    {
+      "Nombre": "Adrian Cadena",
+      "Edad": 20,
+      "Sector": "La Floresta",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "aa83",
+      "id": "a435"
+    },
+    {
+      "Nombre": "Alisson Viteri",
+      "Edad": 23,
+      "Sector": "Recreo",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "dfc6",
+      "id": "ef96"
+    },
+    {
+      "Nombre": "Jonathan Ramirez",
+      "Edad": 21,
+      "Sector": "Cotocollao",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "fb60",
+      "id": "0346"
+    },
+    {
+      "Nombre": "Francis Aconda",
+      "Edad": 21,
+      "Sector": "La Floresta",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "d397",
+      "id": "10e9"
+    },
+    {
+      "Nombre": "Evelyn Guachamin",
+      "Edad": 27,
+      "Sector": "Guamani",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "c9dd",
+      "id": "2bd0"
+    },
+    {
+      "Nombre": "Ariel Ashqui",
+      "Edad": 22,
+      "Sector": "Bellavista",
+      "Canton": "Quito",
+      "id_Gasto_Agua": "c6f2",
+      "id": "e6e1"
+    }
+  ]
+}
